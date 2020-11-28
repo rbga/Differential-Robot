@@ -1,7 +1,8 @@
 # Autonomous Navigation and Mapping of Surroundings Using Differential Robot
 Course Project for Autonomous Robotics @ Dalhousie University taught by Dr. Mae Seto
 
-Abstract – A differential robot powered by Lego EV3, programmed in MATLAB, is used to navigate around a constructed track with different sizes of obstacles and simultaneously map the track.
+Abstract – 
+A differential robot powered by Lego EV3, programmed in MATLAB, is used to navigate around a constructed track with different sizes of obstacles and simultaneously map the track.
 
 Keywords – Matlab, PID, Lego EV3, Mapping, Obstacle avoidance, Controller, Algorithm, Tangent Bug, Ultrasound, Gyroscope, SLAM.
 

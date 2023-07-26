@@ -51,6 +51,3 @@ We would like to thank Dr. Mae Seto for her guidance and support throughout the 
 
 This project is licensed under the [MIT License](LICENSE).
 
-## Contact
-
-If you have any questions or suggestions regarding this project, feel free to contact us at [email@example.com](mailto:email@example.com). We welcome any feedback and contributions!

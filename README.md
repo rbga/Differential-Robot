@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The Differential Robot project is a fully autonomous robot designed to navigate around a track, avoid obstacles, and simultaneously map the surroundings. This project was developed as a course project for Autonomous Robotics at Dalhousie University, under the guidance of Dr. Mae Seto.
+The Differential Robot project is a fully autonomous robot designed to navigate around a track, avoid obstacles, and simultaneously map the surroundings. This project was developed as a course project for Autonomous Robotics at Dalhousie University.
 >(![image](https://github.com/rbga/Differential-Robot/assets/75168756/ea0279bf-0fc0-4604-9245-e62944b65c75))
 ## Key Features
 

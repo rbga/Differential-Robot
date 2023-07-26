@@ -1,19 +1,58 @@
-# Autonomous Navigation and Mapping of Surroundings Using Differential Robot
-Course Project for Autonomous Robotics @ Dalhousie University taught by Dr. Mae Seto
+# Differential Robot Project
 
-Abstract – 
-A differential robot powered by Lego EV3, programmed in MATLAB, is used to navigate around a constructed track with different sizes of obstacles and simultaneously map the track.
+![Differential Robot](![DRB](https://github.com/rbga/Differential-Robot/assets/75168756/12fa8575-e7f5-4d38-946d-10e05c005e05))
 
-Keywords – Matlab, PID, Lego EV3, Mapping, Obstacle avoidance, Controller, Algorithm, Tangent Bug, Ultrasound, Gyroscope, SLAM.
+## Introduction
 
-The basic goal definition of this problem is to construct a fully autonomous differential drive robot that can navigate around track, avoid obstacles and map the entire track simultaneously. The primary sensor used to do all these activities is Ultrasonic sensor. The robot should start from an entry point within the track and go around the inner walls of the track avoiding obstacles on the way and simultaneously map the walls and the surroundings.
+The Differential Robot project is a fully autonomous robot designed to navigate around a track, avoid obstacles, and simultaneously map the surroundings. This project was developed as a course project for Autonomous Robotics at Dalhousie University, under the guidance of Dr. Mae Seto.
 
-• Devised a differential robot powered by TI Sitara AM1808 (ARM9), programmed in MATLAB to proficiently navigate around a track with varying obstacle sizes while simultaneously mapping the track.
+## Key Features
 
-• Formulated and executed a PID algorithm to minimize errors in two motors of a differential drive robot, using proportional, integral, and derivative constants.
+- Autonomous navigation using a differential drive mechanism.
+- Obstacle avoidance using a PID algorithm and Tangent Bug algorithm.
+- Simultaneous Localization and Mapping (SLAM) using Ultrasonic, Gyroscope, and Color sensors.
+- Path planning with Dijkstra's algorithm.
+- Integration of diverse sensors, including Ultrasonic, Gyroscope, Touch, and Color sensors.
+- Utilization of Extended Kalman Filter for robot localization without GPS assistance.
 
-• Orchestrated the integration of a diverse array of sensors, such as Ultrasonic, Gyroscope, Servo Motor, Touch, and Color sensors, to effectively localize the Robot using Extended Kalman Filter, and successfully executed path planning utilizing Dijkstra Algorithm, without the assistance of GPS.
+## Requirements
 
-• Applied the Tangent Bug algorithm for obstacle avoidance, integrating touch and ultrasonic sensors to effortlessly circumvent obstacles and proceed with the path to the destination.
+To build and run this project, you will need the following hardware and software:
 
-• Employed industry-standard testing methods, including unit testing, functional testing, and integration testing, to meticulously test and debug various parts and components of the project, ensuring maximum performance and reliability.
+- TI Sitara AM1808 (ARM9) powered robot with differential drive mechanism.
+- MATLAB for programming and control.
+- Ultrasonic, Gyroscope, Touch, and Color sensors.
+- Servo Motor for navigation.
+- Dijkstra's algorithm for path planning.
+- Extended Kalman Filter for localization.
+- PID algorithm for motor control.
+
+## Installation and Usage
+
+1. Clone this repository to your local machine.
+2. Install MATLAB and the required libraries.
+3. Connect the robot hardware components as specified in the documentation.
+4. Run the MATLAB script to initiate the robot.
+5. The robot will autonomously navigate the track, avoiding obstacles, and mapping the surroundings.
+
+## How It Works
+
+The robot is powered by TI Sitara AM1808 and programmed in MATLAB. It utilizes Ultrasonic, Gyroscope, Touch, and Color sensors to detect obstacles, localize itself, and map the surroundings. The PID algorithm ensures precise control of the two motors in the differential drive mechanism, allowing the robot to move smoothly. The integration of sensors and the Tangent Bug algorithm enable the robot to avoid obstacles efficiently and navigate towards its destination.
+
+## Contributions
+
+- **Your Name**: Implemented PID algorithm for motor control.
+- **Your Teammate's Name**: Developed the obstacle avoidance algorithm using the Tangent Bug approach.
+- **Another Teammate's Name**: Integrated the diverse range of sensors and implemented SLAM using Extended Kalman Filter.
+
+## Acknowledgments
+
+We would like to thank Dr. Mae Seto for her guidance and support throughout the project. This project would not have been possible without her expertise and encouragement.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Contact
+
+If you have any questions or suggestions regarding this project, feel free to contact us at [email@example.com](mailto:email@example.com). We welcome any feedback and contributions!

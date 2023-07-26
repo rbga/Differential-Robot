@@ -1,6 +1,6 @@
 # Differential Robot Project
 
-![Differential Robot](![DRB](https://github.com/rbga/Differential-Robot/assets/75168756/12fa8575-e7f5-4d38-946d-10e05c005e05))
+![Differential Robot](![image](https://github.com/rbga/Differential-Robot/assets/75168756/87f19d18-06d7-43d7-97d9-2d99456daf81))
 
 ## Introduction
 

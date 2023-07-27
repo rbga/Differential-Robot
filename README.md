@@ -37,15 +37,9 @@ To build and run this project, you will need the following hardware and software
 
 The robot is powered by TI Sitara AM1808 and programmed in MATLAB. It utilizes Ultrasonic, Gyroscope, Touch, and Color sensors to detect obstacles, localize itself, and map the surroundings. The PID algorithm ensures precise control of the two motors in the differential drive mechanism, allowing the robot to move smoothly. The integration of sensors and the Tangent Bug algorithm enable the robot to avoid obstacles efficiently and navigate towards its destination.
 
-## Contributions
-
-- **Your Name**: Implemented PID algorithm for motor control.
-- **Your Teammate's Name**: Developed the obstacle avoidance algorithm using the Tangent Bug approach.
-- **Another Teammate's Name**: Integrated the diverse range of sensors and implemented SLAM using Extended Kalman Filter.
-
 ## Acknowledgments
 
-We would like to thank Dr. Mae Seto for her guidance and support throughout the project. This project would not have been possible without her expertise and encouragement.
+I would like to thank Dr. Mae Seto for her guidance and support throughout the project. This project would not have been possible without her expertise and encouragement.
 
 ## License
 
